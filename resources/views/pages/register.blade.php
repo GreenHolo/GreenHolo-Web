@@ -22,7 +22,7 @@
             </div>
             <input class="mt-2 px-4 py-4 rounded-lg text-md text-gray-900 border border-green-500 w-full focus:outline-none focus:shadow-outline " type="password" placeholder="Enter password" />
             <div class="mt-6 text-xs text-center">
-                <a class="text-gray-900" href="#">By clicking Agree & Join, you agree to the GreenHolo <a class="font-semibold text-green-500" href="#">User Agreement</a>, <a class="font-semibold text-green-500" href="#">Privacy Policy</a>, and <a class="font-semibold text-green-500" href="#">Cookie Policy</a>. </a>
+                <a class="text-gray-900" href="#">By signing up, you agree to the GreenHolo <a class="font-semibold text-green-500" href="#">User Agreement</a>, <a class="font-semibold text-green-500" href="#">Privacy Policy</a>, and <a class="font-semibold text-green-500" href="#">Cookie Policy</a>. </a>
             </div>
             <div class="mt-6">
                 <button class="py-4 w-full bg-green-500 hover:bg-green-400 active:bg-green-600 focus:outline-none focus:shadow-outline text-white text-lg rounded-lg font-semibold shadow-lg">Sign Up</button>
