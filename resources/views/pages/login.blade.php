@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenHolo Login</title>
+
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+</head>
+<body class="">
+    <div class="mt-6 px-8 py-12 max-w-xl mx-auto">
+        <div class="flex justify-center">
+            <img src="{{ asset('assets/logo-green.svg') }}" alt="GreenHolo" />
+        </div>
+        <h3 class="mt-6 text-2xl font-semibold text-center text-gray-900">Welcome Back</h1>
+        <h3 class="mt-6 text-xl text-center text-gray-900">Make the most out of your professional life</h3>
+        <div class="mt-6 px-10 py-10 border border-green-500 rounded-lg">
+            <div>
+                <label class="text-gray-900">Email</label>
+            </div>
+            <input class="mt-2 px-4 py-4 rounded-lg text-md text-gray-900 border border-green-500 w-full" type="text" placeholder="Enter email" />
+            <div class="mt-6">
+                <label class="text-gray-900">Password</label>
+            </div>
+            <input class="mt-2 px-4 py-4 rounded-lg text-md text-gray-900 border border-green-500 w-full " type="password" placeholder="Enter password" />
+            <div class="mt-4 text-sm text-right">
+                <a class="text-gray-900" href="#">Forgot password?</a>
+            </div>
+            <div class="mt-6">
+                <button class="py-4 w-full bg-green-500 text-white text-lg rounded-lg font-semibold">Sign in</button>
+            </div>
+            <p class="mt-6 text-sm text-gray-900">New to GreenHolo? <a class="font-semibold text-green-500" href="{{ url('/register') }}">Sign Up</a></p>
+        </div>
+    </div>
+    
+</body>
+</html>
