@@ -12,23 +12,23 @@
             <img src="{{ asset('assets/logo-green.svg') }}" alt="GreenHolo" />
         </div>
         <h3 class="mt-6 text-2xl font-semibold text-center text-gray-900">Welcome Back</h1>
-        <h3 class="mt-6 text-xl text-center text-gray-900">Make the most out of your professional life</h3>
+        <h3 class="mt-6 text-lg text-center text-gray-900">Make the most out of your professional life</h3>
         <div class="mt-6 px-10 py-10 border border-green-500 rounded-lg">
             <div>
                 <label class="text-gray-900">Email</label>
             </div>
-            <input class="mt-2 px-4 py-4 rounded-lg text-md text-gray-900 border border-green-500 w-full" type="text" placeholder="Enter email" />
+            <input class="mt-2 px-4 py-4 rounded-lg text-md text-gray-900 border border-green-500 w-full focus:outline-none focus:shadow-outline " type="text" placeholder="Enter email" />
             <div class="mt-6">
                 <label class="text-gray-900">Password</label>
             </div>
-            <input class="mt-2 px-4 py-4 rounded-lg text-md text-gray-900 border border-green-500 w-full " type="password" placeholder="Enter password" />
-            <div class="mt-4 text-sm text-right">
+            <input class="mt-2 px-4 py-4 rounded-lg text-md text-gray-900 border border-green-500 w-full focus:outline-none focus:shadow-outline " type="password" placeholder="Enter password" />
+            <div class="mt-4 text-xs text-right">
                 <a class="text-gray-900" href="#">Forgot password?</a>
             </div>
             <div class="mt-6">
-                <button class="py-4 w-full bg-green-500 text-white text-lg rounded-lg font-semibold">Sign in</button>
+                <button class="py-4 w-full bg-green-500 hover:bg-green-400 active:bg-green-600 focus:outline-none focus:shadow-outline text-white text-lg rounded-lg font-semibold shadow-lg">Sign in</button>
             </div>
-            <p class="mt-6 text-sm text-gray-900">New to GreenHolo? <a class="font-semibold text-green-500" href="{{ url('/register') }}">Sign Up</a></p>
+            <p class="mt-6 text-xs text-center text-gray-900">New to GreenHolo? <a class="font-semibold text-green-500" href="{{ url('/register') }}">Sign Up</a></p>
         </div>
     </div>
     
