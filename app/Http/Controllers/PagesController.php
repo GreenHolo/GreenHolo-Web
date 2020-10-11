@@ -19,6 +19,6 @@ class PagesController extends Controller
     }
 
     public function jobs() {
-        return jobs('pages.jobs');
+        return view('pages.jobs');
     }
 }

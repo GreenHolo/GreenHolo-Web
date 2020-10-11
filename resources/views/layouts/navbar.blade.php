@@ -14,7 +14,7 @@
             <div class="flex ml-auto">
                 <a class="mr-10" href="/home"><img class="m-3" src="{{ asset('assets/home.svg') }}" alt="home"></a>
                 <a class="mr-10" href=""><img class="m-3" src="{{ asset('assets/chat.svg') }}" alt="chat"></a>
-                <a class="mr-10" href=""><img class="m-3" src="{{ asset('assets/jobs.svg') }}" alt="job"></a>
+                <a class="mr-10" href="/jobs"><img class="m-3" src="{{ asset('assets/jobs.svg') }}" alt="job"></a>
                 <a class="mr-10" href=""><img class="m-3" src="{{ asset('assets/people.svg') }}" alt="pple"></a>
                 <a class="mr-10" href=""><img class="m-3" src="{{ asset('assets/notification.svg') }}" alt="not"></a>
                 <a class="mr-10" href=""><img class="m-3" src="{{ asset('assets/notification.svg') }}" alt="not"></a>
