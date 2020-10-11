@@ -21,4 +21,8 @@ class PagesController extends Controller
     public function jobs() {
         return view('pages.jobs');
     }
+
+    public function notifications() {
+        return view('pages.notifications');
+    }
 }

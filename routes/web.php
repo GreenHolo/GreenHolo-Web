@@ -22,3 +22,5 @@ Route::get('/register', 'PagesController@register');
 Route::get('/home', 'PagesController@home');
 
 Route::get('/jobs', 'PagesController@jobs');
+
+Route::get('/notifications', 'PagesController@notifications');
