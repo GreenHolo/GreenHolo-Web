@@ -24,3 +24,5 @@ Route::get('/home', 'PagesController@home');
 Route::get('/jobs', 'PagesController@jobs');
 
 Route::get('/notifications', 'PagesController@notifications');
+
+Route::get('/network', 'PagesController@network');

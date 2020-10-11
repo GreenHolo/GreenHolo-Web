@@ -25,4 +25,8 @@ class PagesController extends Controller
     public function notifications() {
         return view('pages.notifications');
     }
+
+    public function network() {
+        return view('pages.network');
+    }
 }
