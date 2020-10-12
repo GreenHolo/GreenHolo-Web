@@ -26,17 +26,17 @@
             </div>
             <div class="w-full sm:w-full md:w-3/5 lg:w-3/5 xl:w-3/5 mx-1 p-3 rounded-lg" style="height: auto;">
                 <div class="flex -m-3 bg-white rounded-lg">
-                    <a href="" class="m-3 flex border-2 py-2 px-4 rounded-lg text-center border-gray-400" style="width: 500px">
+                    <a href="" class="m-3 flex border-2 py-2 px-4 rounded-lg text-center border-green-200" style="width: 500px">
                         <img src="{{ asset('assets/write.svg') }}" alt=""> <span class="py-3 font-bold ml-4 span">Write a Seed</span>
                     </a>
-                    <a class="m-3 flex border-2 py-2 px-4 rounded-lg text-center border-gray-400" href=""><img src="{{ asset('assets/camera.svg') }}" alt=""></a>
-                    <a class="m-3 flex border-2 py-2 px-4 rounded-lg text-center border-gray-400" href=""><img src="{{ asset('assets/video.svg') }}" alt=""></a>
-                    <a class="m-3 flex border-2 py-2 px-4 rounded-lg text-center border-gray-400" href=""><img src="{{ asset('assets/document.svg') }}" alt=""></a>
+                    <a class="m-3 flex border-2 py-2 px-4 rounded-lg text-center border-green-200" href=""><img src="{{ asset('assets/camera.svg') }}" alt=""></a>
+                    <a class="m-3 flex border-2 py-2 px-4 rounded-lg text-center border-green-200" href=""><img src="{{ asset('assets/video.svg') }}" alt=""></a>
+                    <a class="m-3 flex border-2 py-2 px-4 rounded-lg text-center border-green-200" href=""><img src="{{ asset('assets/document.svg') }}" alt=""></a>
                 </div>
                 <div class="flex -m-3 bg-white rounded-lg p-3 mt-8 items-center">
                     <p class="font-bold text-xl">Seeds</p>
                     <div class="flex relative items-center ml-auto">
-                        <select class="block appearance-none w-auto bg-white rounded-lg border-2 border-gray-400 rounded-g hover:border-gray-500 px-4 py-2 pr-8 leading-tight focus:outline-none focus:shadow-outline" style="font-family: 'Poppins', sans-serif;">
+                        <select class="block appearance-none font-semibold w-auto bg-white rounded-lg border-2 border-green-200 rounded-g hover:border-green-500 px-4 py-2 pr-8 leading-tight focus:outline-none focus:shadow-outline" style="font-family: 'Poppins', sans-serif;">
                             <option>Top</option>
                             <option>Latest</option>
                             <option>New</option>
