@@ -32,3 +32,5 @@ Route::get('/chats', 'PagesController@chats');
 Route::get('/profile', 'PagesController@profile');
 
 Route::get('/savedseeds', 'PagesController@savedseeds');
+
+Route::get('/connections', 'PagesController@connections');

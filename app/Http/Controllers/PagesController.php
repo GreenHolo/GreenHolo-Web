@@ -37,4 +37,8 @@ class PagesController extends Controller
     public function savedseeds() {
         return view('pages.savedseeds');
     }
+
+    public function connections() {
+        return view('pages.connections');
+    }
 }

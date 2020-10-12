@@ -8,7 +8,7 @@
                 <p class="text-gray-500 text-sm font-medium">My network</p>
             </div>
             <div class="bg-white my-5 p-3 -m-3 rounded-lg">
-                <a href="" class="flex items-center">
+                <a href="/connections" class="flex items-center">
                     <p class="text-gray-700 text-sm font-bold">Connections</p> <span class="ml-auto text-green-500 font-bold">190</span>
                 </a>
                 <a href="" class="flex my-4 items-center">
