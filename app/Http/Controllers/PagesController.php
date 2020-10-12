@@ -41,4 +41,8 @@ class PagesController extends Controller
     public function connections() {
         return view('pages.connections');
     }
+
+    public function peoplefollowing() {
+        return view('pages.peoplefolowing');
+    }
 }
