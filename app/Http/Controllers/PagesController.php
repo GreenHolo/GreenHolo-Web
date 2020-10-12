@@ -43,6 +43,14 @@ class PagesController extends Controller
     }
 
     public function peoplefollowing() {
-        return view('pages.peoplefolowing');
+        return view('pages.peoplefollowing');
+    }
+
+    public function groups() {
+        return view('pages.groups');
+    }
+
+    public function newsletters() {
+        return view('pages.newsletters');
     }
 }

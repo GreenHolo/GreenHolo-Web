@@ -34,3 +34,8 @@ Route::get('/profile', 'PagesController@profile');
 Route::get('/savedseeds', 'PagesController@savedseeds');
 
 Route::get('/connections', 'PagesController@connections');
+
+Route::get('/peoplefollowing', 'PagesController@peoplefollowing');
+
+Route::get('/groups', 'PagesController@groups');
+

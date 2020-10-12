@@ -11,19 +11,13 @@
                 <a href="/connections" class="flex items-center">
                     <p class="text-gray-700 text-sm font-bold">Connections</p> <span class="ml-auto text-green-500 font-bold">190</span>
                 </a>
-                <a href="" class="flex my-4 items-center">
+                <a href="/peoplefollowing" class="flex my-4 items-center">
                     <p class="text-gray-700 text-sm font-bold">People Following</p> <span class="ml-auto text-green-500 font-bold">20</span>
                 </a>
-                <a href="" class="flex my-4 items-center">
+                <a href="/groups" class="flex my-4 items-center">
                     <p class="text-gray-700 text-sm font-bold">Groups</p> <span class="ml-auto text-green-500 font-bold">10</span>
                 </a>
-                <a href="" class="flex my-4 items-center">
-                    <p class="text-gray-700 text-sm font-bold">Hashtags</p> <span class="ml-auto text-green-500 font-bold">10</span>
-                </a>
-                <a href="" class="flex my-4 items-center">
-                    <p class="text-gray-700 text-sm font-bold">Pages</p> <span class="ml-auto text-green-500 font-bold">5</span>
-                </a>
-                <a href="" class="flex mt-4 items-center">
+                <a href="/newsletters" class="flex mt-4 items-center">
                     <p class="text-gray-700 text-sm font-bold">Newsletters</p> <span class="ml-auto text-green-500 font-bold">2</span>
                 </a>
             </div>
