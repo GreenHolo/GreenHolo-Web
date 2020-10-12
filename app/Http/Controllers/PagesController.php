@@ -34,7 +34,7 @@ class PagesController extends Controller
         return view('pages.chats');
     }
 
-    public function profile() {
-        return view('pages.profile');
+    public function savedseeds() {
+        return view('pages.savedseeds');
     }
 }

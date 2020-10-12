@@ -16,7 +16,7 @@
                         <a href=""><p class="m-3" style="font-weight: bold;">Grow your network</p></a>
                     </div>
                     <div class="mt-12 rounded-lg text-center border-2 p-3 border-gray-400">
-                        <a class="text-center" style="font-weight: bold;" href="">Saved Seeds</a> 
+                        <a class="text-center" style="font-weight: bold;" href="/savedseeds">Saved Seeds</a> 
                     </div>
                 </div>
             </div>
