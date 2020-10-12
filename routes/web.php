@@ -41,3 +41,9 @@ Route::get('/groups', 'PagesController@groups');
 
 Route::get('/newsletters', 'PagesController@newsletters');
 
+Route::get('/jobs/saved', 'PagesController@savedjobs');
+
+Route::get('/jobs/applied', 'PagesController@appliedjobs');
+
+
+

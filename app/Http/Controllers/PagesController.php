@@ -56,4 +56,12 @@ class PagesController extends Controller
     public function newsletters() {
         return view('pages.newsletters');
     }
+
+    public function savedjobs() {
+        return view('pages.savedjobs');
+    }
+
+    public function appliedjobs() {
+        return view('pages.appliedjobs');
+    }
 }
