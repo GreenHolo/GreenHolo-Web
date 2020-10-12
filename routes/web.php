@@ -26,3 +26,7 @@ Route::get('/jobs', 'PagesController@jobs');
 Route::get('/notifications', 'PagesController@notifications');
 
 Route::get('/network', 'PagesController@network');
+
+Route::get('/chats', 'PagesController@chats');
+
+Route::get('/profile', 'PagesController@profile');

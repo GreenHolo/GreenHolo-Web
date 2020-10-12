@@ -29,4 +29,12 @@ class PagesController extends Controller
     public function network() {
         return view('pages.network');
     }
+
+    public function chats() {
+        return view('pages.chats');
+    }
+
+    public function profile() {
+        return view('pages.profile');
+    }
 }

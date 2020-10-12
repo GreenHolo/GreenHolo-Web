@@ -15,9 +15,9 @@
                 <a class="mr-10" href="/home"><img class="m-3" src="{{ asset('assets/home.svg') }}" alt="home"></a>
                 <a class="mr-10" href="/network"><img class="m-3" src="{{ asset('assets/people.svg') }}" alt="pple"></a>
                 <a class="mr-10" href="/jobs"><img class="m-3" src="{{ asset('assets/jobs.svg') }}" alt="job"></a>
-                <a class="mr-10" href=""><img class="m-3" src="{{ asset('assets/chat.svg') }}" alt="chat"></a>
+                <a class="mr-10" href="/chats"><img class="m-3" src="{{ asset('assets/chat.svg') }}" alt="chat"></a>
                 <a class="mr-10" href="/notifications"><img class="m-3" src="{{ asset('assets/notification.svg') }}" alt="not"></a>
-                <a class="mr-10" href=""><img class="m-3 w-8 h-8" src="{{ asset('assets/profile.png') }}" alt="not"></a>
+                <a class="mr-10" href="/profile"><img class="m-3 w-8 h-8" src="{{ asset('assets/profile.png') }}" alt="profile"></a>
             </div>
         </div>
         
