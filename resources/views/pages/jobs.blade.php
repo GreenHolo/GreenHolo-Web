@@ -6,7 +6,6 @@
             <div class="w-full bg-white p-3 rounded-lg flex items-center mx-1">
                 <a class="flex items-center m-3" href=""><img src="{{ asset('assets/saved.svg') }}" alt="" style="width: 35px;"> <span class="ml-1 text-black text-lg">Saved Jobs</span></a>
                 <a class="flex items-center m-3" href=""><img src="{{ asset('assets/checked.svg') }}" alt="" style="width: 35px;"> <span class="ml-1 text-black text-lg">Applied Jobs</span></a>
-                <a class="flex items-center m-3" href=""><img src="{{ asset('assets/not.svg') }}" alt="" style="width: 35px;"> <span class="ml-1 text-black text-lg">Jobs Alerts</span></a>
                 <a class="text-center p-3 border-2 border-green-500 text-green-500 font-bold rounded-lg ml-auto mr-4" href="">Post a Job</a>
             </div>
             <div class="w-full bg-green-200 p-3 rounded-lg mx-1 my-5">

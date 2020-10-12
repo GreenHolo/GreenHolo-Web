@@ -11,12 +11,16 @@
                         <p class="mt-16 mb-6" style="text-align: center; font-weight:bold; font-size:20px;">Welcome, Greg!</p>
                     </div>
                     <div class="mt-10">
-                        <a href=""><p class="m-3">Peope who viewed your profile <span class="ml-auto" style="font-weight: bold;">30</span></p></a>
-                        <a href=""><p class="m-3">Connections <span style="font-weight: bold;" class="ml-auto">30</span></p></a>
-                        <a href=""><p class="m-3" style="font-weight: bold;">Grow your network</p></a>
+                        <span class="flex items-center m-3 span">
+                            <p class="text-gray-700 text-sm font-bold">People who viewed your profile</p> <span class="ml-auto text-green-500 font-bold">10</span>
+                        </span>
+                        <a href="/connections" class="flex items-center my-6 m-3">
+                            <p class="text-gray-700 text-sm font-bold">Connections</p> <span class="ml-auto text-green-500 font-bold">190</span>
+                        </a>
+                        <a href="/network"><p class="m-3 text-green-500" style="font-weight: bold;">Grow your network</p></a>
                     </div>
-                    <div class="mt-12 rounded-lg text-center border-2 p-3 border-gray-400">
-                        <a class="text-center" style="font-weight: bold;" href="/savedseeds">Saved Seeds</a> 
+                    <div class="mt-12 rounded-lg text-center border-2 p-3 border-green-200">
+                        <a class="text-center text-green-700" style="font-weight: bold;" href="/savedseeds">Saved Seeds</a> 
                     </div>
                 </div>
             </div>

@@ -39,3 +39,5 @@ Route::get('/peoplefollowing', 'PagesController@peoplefollowing');
 
 Route::get('/groups', 'PagesController@groups');
 
+Route::get('/newsletters', 'PagesController@newsletters');
+
