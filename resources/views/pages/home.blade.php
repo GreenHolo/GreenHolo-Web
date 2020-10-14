@@ -25,18 +25,90 @@
                 </div>
             </div>
             <div class="w-full sm:w-full md:w-3/5 lg:w-3/5 xl:w-3/5 mx-1 p-3 rounded-lg" style="height: auto;">
-                <div class="flex -m-3 bg-white rounded-lg">
+                <div class="flex items-center -m-3 bg-white rounded-lg">
                     <a href="" class="m-3 flex border-2 py-2 px-4 rounded-lg text-center border-green-200" style="width: 500px">
                         <img src="{{ asset('assets/write.svg') }}" alt=""> <span class="py-3 font-bold ml-4 span">Write a Seed</span>
                     </a>
-                    <a class="m-3 flex border-2 py-2 px-4 rounded-lg text-center border-green-200" href=""><img src="{{ asset('assets/camera.svg') }}" alt=""></a>
-                    <a class="m-3 flex border-2 py-2 px-4 rounded-lg text-center border-green-200" href=""><img src="{{ asset('assets/video.svg') }}" alt=""></a>
-                    <a class="m-3 flex border-2 py-2 px-4 rounded-lg text-center border-green-200" href=""><img src="{{ asset('assets/document.svg') }}" alt=""></a>
+                    <div x-data="{ open: false }">
+                        <button x-on:click="open = true" class="m-3 flex border-2 py-2 px-4 rounded-lg text-center border-green-200" href=""><img src="{{ asset('assets/camera.svg') }}" alt=""></button>
+                        <div x-show.transition="open" x-on:click.away="open = false">
+                            <div class="fixed z-10 inset-0 overflow-y-auto">
+                                <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+                                  <div class="fixed inset-0 transition-opacity">
+                                    <div class="absolute inset-0 bg-gray-400 opacity-75"></div>
+                                  </div>
+                                  <span class="hidden sm:inline-block sm:align-middle sm:h-screen"></span>&#8203;
+                                  <div class="inline-block p-3 align-bottom bg-white rounded-lg overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+                                   <div class="flex p-3">
+                                       <p class="text-gray-700 font-medium text-lg">Edit Your Photo</p>
+                                   </div>
+                                   <div class="text-center p-20">
+                                       <a class="text-center text-green-600 text-xl font-medium" href="">Upload or Drag images here</a>
+                                   </div>
+                                   <div class="inline-block">
+                                       <button x-on:click="open = false" style="outline: none" class="py-2 px-4 bg-red-500 text-white text-lg font-semibold rounded-lg">Cancel</button>
+                                       <button style="outline: none" class="py-2 px-4 bg-green-500 text-white text-lg font-semibold rounded-lg">Done</button>
+                                   </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div x-data="{ open: false }">
+                        <button x-on:click="open = true" class="m-3 flex border-2 py-2 px-4 rounded-lg text-center border-green-200" href=""><img src="{{ asset('assets/video.svg') }}" alt=""></button>
+                        <div x-show.transition="open" x-on:click.away="open = false">
+                            <div class="fixed z-10 inset-0 overflow-y-auto">
+                                <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+                                  <div class="fixed inset-0 transition-opacity">
+                                    <div class="absolute inset-0 bg-gray-400 opacity-75"></div>
+                                  </div>
+                                  <span class="hidden sm:inline-block sm:align-middle sm:h-screen"></span>&#8203;
+                                  <div class="inline-block p-3 align-bottom bg-white rounded-lg overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+                                   <div class="flex p-3">
+                                       <p class="text-gray-700 font-medium text-lg">Select/Edit Your Video</p>
+                                   </div>
+                                   <div class="text-center p-20">
+                                       <a class="text-center text-green-600 text-xl font-medium" href="">Upload or Drag your video here</a>
+                                   </div>
+                                   <div class="inline-block">
+                                       <button x-on:click="open = false" style="outline: none" class="py-2 px-4 bg-red-500 text-white text-lg font-semibold rounded-lg">Cancel</button>
+                                       <button style="outline: none" class="py-2 px-4 bg-green-500 text-white text-lg font-semibold rounded-lg">Done</button>
+                                   </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div x-data="{ open: false }">
+                        <button x-on:click="open = true" class="m-3 flex border-2 py-2 px-4 rounded-lg text-center border-green-200" href=""><img src="{{ asset('assets/document.svg') }}" alt=""></button>
+                        <div x-show.transition="open" x-on:click.away="open = false">
+                            <div class="fixed z-10 inset-0 overflow-y-auto">
+                                <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+                                  <div class="fixed inset-0 transition-opacity">
+                                    <div class="absolute inset-0 bg-gray-400 opacity-75"></div>
+                                  </div>
+                                  <span class="hidden sm:inline-block sm:align-middle sm:h-screen"></span>&#8203;
+                                  <div class="inline-block p-3 align-bottom bg-white rounded-lg overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+                                   <div class="flex p-3">
+                                       <p class="text-gray-700 font-medium text-lg">Edit Your Photo</p>
+                                   </div>
+                                   <div class="p-20">
+                                       <a class="text-left align-left border-2 border-green-500 py-2 px-4 font-medium text-green-600 rounded-lg" href="">Upload file</a>
+                                   </div>
+                                   <div class="inline-block">
+                                       <button x-on:click="open = false" style="outline: none" class="py-2 px-4 bg-red-500 text-white text-lg font-semibold rounded-lg">Cancel</button>
+                                       <button style="outline: none" class="py-2 px-4 bg-green-500 text-white text-lg font-semibold rounded-lg">Done</button>
+                                   </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="flex -m-3 bg-white rounded-lg p-3 mt-8 items-center">
                     <p class="font-bold text-xl">Seeds</p>
                     <div class="flex relative items-center ml-auto">
-                        <select class="block appearance-none font-semibold w-auto bg-white rounded-lg border-2 border-green-200 rounded-g hover:border-green-500 px-4 py-2 pr-8 leading-tight focus:outline-none focus:shadow-outline" style="font-family: 'Poppins', sans-serif;">
+                        <select class="block appearance-none font-semibold w-auto bg-white rounded-lg border-2 border-green-200 rounded-g hover:border-green-5 00 px-4 py-2 pr-8 leading-tight focus:outline-none focus:shadow-outline" style="font-family: 'Poppins', sans-serif;">
                             <option>Top</option>
                             <option>Latest</option>
                             <option>New</option>
@@ -81,9 +153,12 @@
                     </div>
                 </div>
             </div>
+            {{--
             <div class="w-full sm:w-full md:w-1/4 lg:w-1/5 xl:w-1/5 mx-1 p-3 rounded-lg" style="height: auto;">
                 <div class="bg-white p-3 -m-3 rounded-lg h-20"></div>
             </div>
+             --}}
+            
           </div>
     </div>
 @endsection
