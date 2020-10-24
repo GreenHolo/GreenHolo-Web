@@ -14,3 +14,219 @@ p, a, ::placeholder, option{
 .span{
     font-family: 'Poppins', sans-serif;
 }
+
+@media (min-width: 200px) and (max-width: 320px) {
+    nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: block;
+        padding-left: 1.0rem;
+        padding-right: 1.0rem;
+    }
+    .bottom-nav{
+        display: block;
+        z-index: 9999;
+    }
+    .hide-section{
+        display: none;
+    }
+    .marr{
+        margin: 0 10px;
+    }
+    .search-bar{
+        width: 120px;
+    }
+    .blo-ck{
+        display: block;
+    }
+    .post-button{
+        margin-top: 20px;
+    }
+    .padrr{
+        padding-left: 1.0rem;
+        padding-right: 1.0rem;
+    }
+    .sec-row{
+        margin-top: 10px;
+    }
+    .submit-button{
+        margin: 20px 0;
+    }
+    .note-text{
+        margin-left: 0rem;
+        margin-right: 2rem;
+        margin-top: 20px;
+    }
+    .full-width{
+        width: 100%;
+    }
+    .card{
+        margin: 20px 0;
+    }
+    .message-button{
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .postajob-button{
+        margin: 40px 0.75rem;
+    }
+    .search-button{
+        margin: 20px 0.75rem;
+    }
+    .top-profile{
+        margin-bottom: 30px;
+        padding-left: 1rem;
+        padding-right: 0rem;
+    }
+    .icons{
+        justify-content: center;
+    }
+    .icon{
+        margin: 20px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 500px) {
+    nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: block;
+        padding-left: 1.0rem;
+        padding-right: 1.0rem;
+    }
+    .bottom-nav{
+        display: block;
+        z-index: 9999;
+    }
+    .hide-section{
+        display: none;
+    }
+    .marr{
+        margin: 0 10px;
+    }
+    .search-bar{
+        width: 150px;
+    }
+    .blo-ck{
+        display: block;
+    }
+    .post-button{
+        margin-top: 20px;
+    }
+    .padrr{
+        padding-left: 1.0rem;
+        padding-right: 1.0rem;
+    }
+    .sec-row{
+        margin-top: 10px;
+    }
+    .submit-button{
+        margin: 20px 0;
+    }
+    .note-text{
+        margin-left: 0rem;
+        margin-right: 2rem;
+        margin-top: 20px;
+    }
+    .full-width{
+        width: 100%;
+    }
+    .card{
+        margin: 20px 0;
+    }
+    .message-button{
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .postajob-button{
+        margin: 40px 0.75rem;
+    }
+    .search-button{
+        margin: 20px 0.75rem;
+    }
+    .top-profile{
+        margin-bottom: 30px;
+        padding-left: 1rem;
+        padding-right: 0rem;
+    }
+    .icons{
+        justify-content: center;
+    }
+    .icon{
+        margin: 25px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: block;
+        padding-left: 1.0rem;
+        padding-right: 1.0rem;
+    }
+    .bottom-nav{
+        display: block;
+        z-index: 9999;
+    }
+    .hide-section{
+        display: none;
+    }
+    .marr{
+        margin: 0 10px;
+    }
+    .search-bar{
+        width: 150px;
+    }
+    .blo-ck{
+        display: block;
+    }
+    .post-button{
+        margin-top: 20px;
+    }
+    .padrr{
+        padding-left: 1.0rem;
+        padding-right: 1.0rem;
+    }
+    .sec-row{
+        margin-top: 10px;
+    }
+    .submit-button{
+        margin: 20px 0;
+    }
+    .note-text{
+        margin-left: 0rem;
+        margin-right: 2rem;
+        margin-top: 20px;
+    }
+    .full-width{
+        width: 100%;
+    }
+    .card{
+        margin: 20px 0;
+    }
+    .message-button{
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .postajob-button{
+        margin: 40px 0.75rem;
+    }
+    .search-button{
+        margin: 20px 0.75rem;
+    }
+    .top-profile{
+        margin-bottom: 30px;
+        padding-left: 1rem;
+        padding-right: 0rem;
+    }
+    .icons{
+        justify-content: center;
+    }
+    .icon{
+        margin: 30px;
+    }
+}

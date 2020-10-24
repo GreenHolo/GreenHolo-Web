@@ -1,14 +1,14 @@
 @extends('layouts.navbar')
 
 @section('content')
-    <div class="px-10 py-5">
-        <div class="-mx-1">
-            <div class="w-3/4 mx-1 style="height: auto;">
+    <div class="px-10 padrr py-5">
+        <div class="">
+            <div class="w-3/4 full-width style="height: auto;">
                 <div class="bg-white rounded-lg p-3 -m-3">
                     <img class="w-full rounded-lg" style="height: 200px" src=" {{ asset('assets/banner.png') }} " alt="">
                     <img class="w-32 h-32 -mt-16 mx-8" src=" {{ asset('assets/profile.png') }} " alt="">
-                    <div class="flex">
-                        <div class="w-2/3 px-8">
+                    <div class="flex blo-ck">
+                        <div class="w-2/3 full-width top-profile px-8">
                             <p class="text-green-800 font-bold text-2xl mt-8">Daniel Adetola</p>
                             <p class="text-gray-600 text-lg mt-2 font-medium">Farm manager</p>
                             <p class="text-gray-600 text-sm my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. nec, nisl posuere porttitor condimentum sit aliquam mi neque tristique interdum nunc. Eget eu, sed eu ornare congue platea quis.</p>
@@ -17,15 +17,17 @@
                                 <img class="mx-2" src=" {{ asset('assets/dot.svg') }} " alt="">
                                 <p class="text-gray-500">Joined 2018</p>
                             </div>
-                            <div class="flex items-center my-2">
-                                <p class="text-green-600 text-sm">Nigeria</p>
-                                <img class="mx-2" src=" {{ asset('assets/dot.svg') }} " alt="">
-                                <a class="text-green-600 text-sm" href="">500+ Connections</a>
-                                <img class="mx-2" src=" {{ asset('assets/dot.svg') }} " alt="">
+                            <div class="flex blo-ck items-center my-2">
+                                <div class="flex items-center">
+                                    <p class="text-green-600 text-sm">Nigeria</p>
+                                    <img class="mx-2" src=" {{ asset('assets/dot.svg') }} " alt="">
+                                    <a class="text-green-600 text-sm" href="">500+ Connections</a>
+                                </div>
+                                <img class="mx-2 hide-section" src=" {{ asset('assets/dot.svg') }} " alt="">
                                 <a class="text-green-600 text-sm" href="">Contact Info</a>
                             </div>
                         </div>
-                        <div class="w-1/2 px-4">
+                        <div class="w-1/2 full-width px-4">
                             <div class="flex items-center -mx-1">
                                 <a class="text-center py-2 px-4 bg-green-500 font-bold text-white rounded-lg mx-1" href="">Message</a>
                                 <a class="text-center py-2 px-4 border-gray-500 border font-bold text-gray-500 rounded-lg mx-1" href="">More</a>
@@ -76,12 +78,12 @@
                 </div>
                 <div class="bg-white rounded-lg p-8 -m-3 my-8">
                     <p class="text-lg text-gray-600 font-semibold mb-8">Highlights</p>
-                    <div class="flex items-center">
+                    <div class="flex blo-ck items-center">
                         <div class="flex items-center">
                             <img class="w-10 h-10 border-2 border-white rounded-full" src=" {{ asset('assets/profile.png') }} " alt="">
                             <img class="w-10 h-10 -ml-4 border-2 border-white rounded-full" src=" {{ asset('assets/profile.png') }} " alt="">
                         </div>
-                        <div class="mx-4">
+                        <div class="m-4">
                             <p class="text-green-800 text-sm font-bold">20 mutual connections</p>
                             <p class="text-gray-500 text-xs">You and Tolani both know Micheal angel, Luke Spanner and 18 others</p>
                         </div>
@@ -118,31 +120,15 @@
                 </div>
                 <div class="bg-white rounded-lg p-8 -m-3 my-8">
                     <p class="text-lg text-gray-600 font-semibold mb-8">Education</p>
-                    <div class="flex">
-                        <div class="flex w-1/2">
+                    <div class="flex blo-ck my-8">
+                        <div class="flex full-width my-8 w-1/2">
                             <img class="w-16 h-16 rounded-lg" src=" {{ asset('assets/profile.png') }} " alt="">
                             <div class="mx-4">
                                 <p class="text-xl text-green-700 font-semibold">Harvard University</p>
                                 <p class="text-sm text-green-600">999,999 followers</p>
                             </div>
                         </div>
-                        <div class="flex w-1/2">
-                            <img class="w-16 h-16 rounded-lg" src=" {{ asset('assets/profile.png') }} " alt="">
-                            <div class="mx-4">
-                                <p class="text-xl text-green-700 font-semibold">Harvard University</p>
-                                <p class="text-sm text-green-600">999,999 followers</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex mt-10">
-                        <div class="flex w-1/2">
-                            <img class="w-16 h-16 rounded-lg" src=" {{ asset('assets/profile.png') }} " alt="">
-                            <div class="mx-4">
-                                <p class="text-xl text-green-700 font-semibold">Harvard University</p>
-                                <p class="text-sm text-green-600">999,999 followers</p>
-                            </div>
-                        </div>
-                        <div class="flex w-1/2">
+                        <div class="flex full-width my-8 w-1/2">
                             <img class="w-16 h-16 rounded-lg" src=" {{ asset('assets/profile.png') }} " alt="">
                             <div class="mx-4">
                                 <p class="text-xl text-green-700 font-semibold">Harvard University</p>

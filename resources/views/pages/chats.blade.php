@@ -1,8 +1,8 @@
 @extends('layouts.navbar')
 
 @section('content')
-<div class="px-10 py-5">
-    <div class="flex -mx-1">
+<div class="px-10 padrr py-5">
+    <div class="flex blo-ck -mx-1">
         <div class="w-full sm:w-full md:w-1/4 lg:w-1/4 xl:w-1/4 mx-1 p-3 rounded-lg" style="height: auto;">
             <div class="bg-white p-3 flex items-center -m-3 rounded-lg">
                 <p class="text-green-500 m-2 font-medium text-lg">Chats</p>
