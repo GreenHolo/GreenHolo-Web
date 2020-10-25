@@ -11,8 +11,23 @@ a{
 p, a, ::placeholder, option{
     font-family: 'Poppins', sans-serif;
 }
+
 .span{
     font-family: 'Poppins', sans-serif;
+}
+
+.padrr{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.navbar{
+    max-width: 1440px;
+    margin: auto;
+}
+
+button{
+    outline: none;
 }
 
 @media (min-width: 200px) and (max-width: 320px) {

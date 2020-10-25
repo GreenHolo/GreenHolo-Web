@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 </head>
 <body style="background: #F9f9f9">
-    <nav class="bg-white w-full px-10 py-5">
+    <nav class="bg-white navbar w-full px-10 py-5">
         <div class="flex items-center">
             <img class="w-12" src="{{ asset('assets/logo-green.svg') }}" alt="GreenHolo">
             <input class="form-input w-full h-12 bg-gray-100 focus:bg-green-100 rounded-full px-5 ml-5 max-w-xs outline-none" placeholder="Search" type="search" name="" id="">
