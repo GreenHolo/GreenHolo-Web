@@ -64,4 +64,8 @@ class PagesController extends Controller
     public function appliedjobs() {
         return view('pages.appliedjobs');
     }
+
+    public function shophome() {
+        return view('shop.shophome');
+    }
 }

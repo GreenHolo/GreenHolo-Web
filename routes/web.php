@@ -45,5 +45,7 @@ Route::get('/jobs/saved', 'PagesController@savedjobs');
 
 Route::get('/jobs/applied', 'PagesController@appliedjobs');
 
+Route::get('/shop', 'PagesController@shophome');
+
 
 

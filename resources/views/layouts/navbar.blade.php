@@ -24,7 +24,7 @@
                         <a href="/profile" class="transition-colors flex items-center font-semibold duration-200 focus:text-green-500 block px-4 py-2 mb-3 text-normal text-gray-900 rounded"><img class="w-8 h-8 mr-4" src=" {{ asset('assets/profile.png') }} " alt=""> View profile</a>
                         <a href="#" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-500 my-3 text-normal text-gray-900">Settings</a>
                         <a href="#" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-500 my-3 text-normal text-gray-900">Help</a>
-                        <a href="#" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-800 my-3 text-normal text-green-500">Shop</a>
+                        <a href="/shop" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-800 my-3 text-normal text-green-500">Shop</a>
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                         <a href="/profile" class="transition-colors flex items-center font-semibold duration-200 focus:text-green-500 block px-4 py-2 mb-3 text-normal text-gray-900 rounded"><img class="w-8 h-8 mr-4" src=" {{ asset('assets/profile.png') }} " alt=""> View profile</a>
                         <a href="#" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-500 my-3 text-normal text-gray-900">Settings</a>
                         <a href="#" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-500 my-3 text-normal text-gray-900">Help</a>
-                        <a href="#" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-800 my-3 text-normal text-green-500">Shop</a>
+                        <a href="/shop" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-800 my-3 text-normal text-green-500">Shop</a>
                     </div>
                 </div>
             </div>
