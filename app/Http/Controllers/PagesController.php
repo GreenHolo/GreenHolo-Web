@@ -76,4 +76,8 @@ class PagesController extends Controller
     public function saveditems() {
         return view('shop.saveditems');
     }
+
+    public function cart() {
+        return view('shop.cart');
+    }
 }

@@ -51,5 +51,7 @@ Route::get('/shop/product', 'PagesController@product');
 
 Route::get('/shop/saveditems', 'PagesController@saveditems');
 
+Route::get('/cart', 'PagesController@cart');
+
 
 

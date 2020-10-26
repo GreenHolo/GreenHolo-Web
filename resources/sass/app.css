@@ -46,6 +46,10 @@ button {
   outline: none;
 }
 
+.middle {
+  margin: 0 auto;
+}
+
 @media (min-width: 200px) and (max-width: 320px) {
   nav {
     display: none;
@@ -117,6 +121,23 @@ button {
   }
   .icon {
     margin: 20px;
+  }
+  .middle {
+    margin: 0 auto;
+  }
+  .shopsaved {
+    margin: 0 0.5rem;
+  }
+  .cart {
+    margin: 0 0.5rem;
+  }
+  .tabs {
+    max-width: 270px;
+    overflow-x: scroll;
+    margin: 20px auto;
+  }
+  .ctrl {
+    margin: 40px 0;
   }
 }
 
@@ -192,6 +213,9 @@ button {
   .icon {
     margin: 25px;
   }
+  .middle {
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 1000px) {
@@ -265,6 +289,9 @@ button {
   }
   .icon {
     margin: 30px;
+  }
+  .middle {
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=app.css.map */
