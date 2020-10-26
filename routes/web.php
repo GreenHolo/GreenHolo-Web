@@ -53,3 +53,8 @@ Route::get('/jobs/saved', 'PagesController@savedjobs');
 
 Route::get('/jobs/applied', 'PagesController@appliedjobs');
 
+Route::get('/shop', 'PagesController@shophome');
+
+Route::get('/shop/product', 'PagesController@product');
+
+Route::get('/shop/saveditems', 'PagesController@saveditems');

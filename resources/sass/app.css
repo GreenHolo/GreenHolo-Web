@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p, a, ::-webkit-input-placeholder, option {
+  font-family: 'Poppins', sans-serif;
+}
+
+p, a, :-ms-input-placeholder, option {
+  font-family: 'Poppins', sans-serif;
+}
+
+p, a, ::-ms-input-placeholder, option {
+  font-family: 'Poppins', sans-serif;
+}
+
+p, a, ::placeholder, option {
+  font-family: 'Poppins', sans-serif;
+}
+
+.span {
+  font-family: 'Poppins', sans-serif;
+}
+
+.padrr {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.navbar {
+  max-width: 1440px;
+  margin: auto;
+}
+
+button {
+  outline: none;
+}
+
+@media (min-width: 200px) and (max-width: 320px) {
+  nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
+  }
+  .bottom-nav {
+    display: block;
+    z-index: 9999;
+  }
+  .hide-section {
+    display: none;
+  }
+  .marr {
+    margin: 0 10px;
+  }
+  .search-bar {
+    width: 120px;
+  }
+  .blo-ck {
+    display: block;
+  }
+  .post-button {
+    margin-top: 20px;
+  }
+  .padrr {
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
+  }
+  .sec-row {
+    margin-top: 10px;
+  }
+  .submit-button {
+    margin: 20px 0;
+  }
+  .note-text {
+    margin-left: 0rem;
+    margin-right: 2rem;
+    margin-top: 20px;
+  }
+  .full-width {
+    width: 100%;
+  }
+  .card {
+    margin: 20px 0;
+  }
+  .message-button {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .postajob-button {
+    margin: 40px 0.75rem;
+  }
+  .search-button {
+    margin: 20px 0.75rem;
+  }
+  .top-profile {
+    margin-bottom: 30px;
+    padding-left: 1rem;
+    padding-right: 0rem;
+  }
+  .icons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .icon {
+    margin: 20px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 500px) {
+  nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
+  }
+  .bottom-nav {
+    display: block;
+    z-index: 9999;
+  }
+  .hide-section {
+    display: none;
+  }
+  .marr {
+    margin: 0 10px;
+  }
+  .search-bar {
+    width: 150px;
+  }
+  .blo-ck {
+    display: block;
+  }
+  .post-button {
+    margin-top: 20px;
+  }
+  .padrr {
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
+  }
+  .sec-row {
+    margin-top: 10px;
+  }
+  .submit-button {
+    margin: 20px 0;
+  }
+  .note-text {
+    margin-left: 0rem;
+    margin-right: 2rem;
+    margin-top: 20px;
+  }
+  .full-width {
+    width: 100%;
+  }
+  .card {
+    margin: 20px 0;
+  }
+  .message-button {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .postajob-button {
+    margin: 40px 0.75rem;
+  }
+  .search-button {
+    margin: 20px 0.75rem;
+  }
+  .top-profile {
+    margin-bottom: 30px;
+    padding-left: 1rem;
+    padding-right: 0rem;
+  }
+  .icons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .icon {
+    margin: 25px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+  nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
+  }
+  .bottom-nav {
+    display: block;
+    z-index: 9999;
+  }
+  .hide-section {
+    display: none;
+  }
+  .marr {
+    margin: 0 10px;
+  }
+  .search-bar {
+    width: 150px;
+  }
+  .blo-ck {
+    display: block;
+  }
+  .post-button {
+    margin-top: 20px;
+  }
+  .padrr {
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
+  }
+  .sec-row {
+    margin-top: 10px;
+  }
+  .submit-button {
+    margin: 20px 0;
+  }
+  .note-text {
+    margin-left: 0rem;
+    margin-right: 2rem;
+    margin-top: 20px;
+  }
+  .full-width {
+    width: 100%;
+  }
+  .card {
+    margin: 20px 0;
+  }
+  .message-button {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .postajob-button {
+    margin: 40px 0.75rem;
+  }
+  .search-button {
+    margin: 20px 0.75rem;
+  }
+  .top-profile {
+    margin-bottom: 30px;
+    padding-left: 1rem;
+    padding-right: 0rem;
+  }
+  .icons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .icon {
+    margin: 30px;
+  }
+}
+/*# sourceMappingURL=app.css.map */

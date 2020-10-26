@@ -1,8 +1,8 @@
 @extends('layouts.navbar')
 
 @section('content')
-<div class="px-10 py-5">
-    <div class="flex -mx-1">
+<div class="px-10 padrr py-5">
+    <div class="flex blo-ck -mx-1">
         <div class="w-full sm:w-full md:w-1/4 lg:w-1/5 xl:w-1/5 mx-1 p-3 rounded-lg" style="height: auto;">
             <div class="bg-white p-3 -m-3 rounded-lg">
                 <p class="text-gray-500 text-sm font-medium">My network</p>
@@ -28,8 +28,8 @@
                 <p class="text-gray-600 m-2 font-medium text-lg">No pending invitations</p>
             </div>
             <div class="bg-white p-3 -m-3 my-8 rounded-lg">
-                <div class="flex mt-2">
-                    <div class="bg-gray-100 mx-2 p-3 w-1/3 rounded-lg">
+                <div class="flex blo-ck mt-2">
+                    <div class="bg-gray-100 mx-2 p-3 w-1/3 full-width card rounded-lg">
                         <img class="rounded-lg w-full" style="max-height: 80px" src=" {{ asset('assets/banner.png') }} " alt="">
                         <img class="rounded-lg w-20 h-20 mx-auto -mt-12" src=" {{ asset('assets/profile.png') }} " alt="">
                         <div class="my-10">
@@ -38,7 +38,7 @@
                         </div>
                         <button class="border-2 rounded-lg border-green-500 text-lg text-green-500 font-bold w-full text-center p-2">Connect</button>
                     </div>
-                    <div class="bg-gray-100 mx-2 p-3 w-1/3 rounded-lg">
+                    <div class="bg-gray-100 mx-2 p-3 w-1/3 full-width card rounded-lg">
                         <img class="rounded-lg w-full" style="max-height: 80px" src=" {{ asset('assets/banner.png') }} " alt="">
                         <img class="rounded-lg w-20 h-20 mx-auto -mt-12" src=" {{ asset('assets/profile.png') }} " alt="">
                         <div class="my-10">
@@ -47,36 +47,7 @@
                         </div>
                         <button class="border-2 rounded-lg border-green-500 text-lg text-green-500 font-bold w-full text-center p-2">Connect</button>
                     </div>
-                    <div class="bg-gray-100 mx-2 p-3 w-1/3 rounded-lg">
-                        <img class="rounded-lg w-full" style="max-height: 80px" src=" {{ asset('assets/banner.png') }} " alt="">
-                        <img class="rounded-lg w-20 h-20 mx-auto -mt-12" src=" {{ asset('assets/profile.png') }} " alt="">
-                        <div class="my-10">
-                            <p class="text-center text-black text-lg font-bold">Jake Anderson</p>
-                            <p class="text-center my-2 text-gray-500 text-xs max-w-xs">Solar Energy Systems Engineer</p>
-                        </div>
-                        <button class="border-2 rounded-lg border-green-500 text-lg text-green-500 font-bold w-full text-center p-2">Connect</button>
-                    </div>
-                </div>
-                <div class="flex my-6">
-                    <div class="bg-gray-100 mx-2 p-3 w-1/3 rounded-lg">
-                        <img class="rounded-lg w-full" style="max-height: 80px" src=" {{ asset('assets/banner.png') }} " alt="">
-                        <img class="rounded-lg w-20 h-20 mx-auto -mt-12" src=" {{ asset('assets/profile.png') }} " alt="">
-                        <div class="my-10">
-                            <p class="text-center text-black text-lg font-bold">Jake Anderson</p>
-                            <p class="text-center my-2 text-gray-500 text-xs max-w-xs">Solar Energy Systems Engineer</p>
-                        </div>
-                        <button class="border-2 rounded-lg border-green-500 text-lg text-green-500 font-bold w-full text-center p-2">Connect</button>
-                    </div>
-                    <div class="bg-gray-100 mx-2 p-3 w-1/3 rounded-lg">
-                        <img class="rounded-lg w-full" style="max-height: 80px" src=" {{ asset('assets/banner.png') }} " alt="">
-                        <img class="rounded-lg w-20 h-20 mx-auto -mt-12" src=" {{ asset('assets/profile.png') }} " alt="">
-                        <div class="my-10">
-                            <p class="text-center text-black text-lg font-bold">Jake Anderson</p>
-                            <p class="text-center my-2 text-gray-500 text-xs max-w-xs">Solar Energy Systems Engineer</p>
-                        </div>
-                        <button class="border-2 rounded-lg border-green-500 text-lg text-green-500 font-bold w-full text-center p-2">Connect</button>
-                    </div>
-                    <div class="bg-gray-100 mx-2 p-3 w-1/3 rounded-lg">
+                    <div class="bg-gray-100 mx-2 p-3 w-1/3 full-width card rounded-lg">
                         <img class="rounded-lg w-full" style="max-height: 80px" src=" {{ asset('assets/banner.png') }} " alt="">
                         <img class="rounded-lg w-20 h-20 mx-auto -mt-12" src=" {{ asset('assets/profile.png') }} " alt="">
                         <div class="my-10">
