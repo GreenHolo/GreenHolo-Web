@@ -68,4 +68,12 @@ class PagesController extends Controller
     public function shophome() {
         return view('shop.shophome');
     }
+
+    public function product() {
+        return view('shop.product');
+    }
+
+    public function saveditems() {
+        return view('shop.saveditems');
+    }
 }

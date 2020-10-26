@@ -19,50 +19,50 @@
             <a href="" class="py-2 px-5 bg-gray-200 text-gray-800 font-bold rounded-full mx-3 italic text-sm focus:bg-green-500 focus:text-white">FOOD & DRINK</a>
             <a href="" class="py-2 px-5 bg-gray-200 text-gray-800 font-bold rounded-full mx-3 italic text-sm focus:bg-green-500 focus:text-white">OTHER GREEN ITEMS</a>
         </div>
-        <div class="flex -mx-6 my-8">
-            <div class="w-1/4 mx-6">
-                <a href="">
+        <div class="flex blo-ck -mx-6 my-8">
+            <div class="w-full sm:w-full md:w-1/2 lg:w-1/2 xl:1/4 mx-6">
+                <a href="/shop/product">
                     <img class="rounded-lg w-full" src=" {{ asset('assets/shopmockup.png') }} " alt="" style="max-width: 100%; max-height: 350px;">
                 </a>
                 <div class="flex items-center">
                     <div class="my-4">
-                        <a href="" class="italic text-black font-bold text-lg">LA’ Donot Tee</a>
+                        <a href="/shop/product" class="italic text-black font-bold text-lg">LA’ Donot Tee</a>
                         <p class="italic text-gray-600 font-bold text-lg">$12.99</p>
                     </div>
                     <button class="bg-white p-3 ml-auto shadow-lg rounded-full"><img src=" {{ asset('assets/addcart.svg') }} " alt=""></button>
                 </div>
             </div>
-            <div class="w-1/4 mx-6">
-                <a href="">
+            <div class="w-full sm:w-full md:w-1/2 lg:w-1/2 xl:1/4 mx-6">
+                <a href="/shop/product">
                     <img class="rounded-lg w-full" src=" {{ asset('assets/shopmockup.png') }} " alt="" style="max-width: 100%; max-height: 350px;">
                 </a>
                 <div class="flex items-center">
                     <div class="my-4">
-                        <a href="" class="italic text-black font-bold text-lg">LA’ Donot Tee</a>
+                        <a href="/shop/product" class="italic text-black font-bold text-lg">LA’ Donot Tee</a>
                         <p class="italic text-gray-600 font-bold text-lg">$12.99</p>
                     </div>
                     <button class="bg-white p-3 ml-auto shadow-lg rounded-full"><img src=" {{ asset('assets/addcart.svg') }} " alt=""></button>
                 </div>
             </div>
-            <div class="w-1/4 mx-6">
-                <a href="">
+            <div class="w-full sm:w-full md:w-1/2 lg:w-1/2 xl:1/4 mx-6">
+                <a href="/shop/product">
                     <img class="rounded-lg w-full" src=" {{ asset('assets/shopmockup.png') }} " alt="" style="max-width: 100%; max-height: 350px;">
                 </a>
                 <div class="flex items-center">
                     <div class="my-4">
-                        <a href="" class="italic text-black font-bold text-lg">LA’ Donot Tee</a>
+                        <a href="/shop/product" class="italic text-black font-bold text-lg">LA’ Donot Tee</a>
                         <p class="italic text-gray-600 font-bold text-lg">$12.99</p>
                     </div>
                     <button class="bg-white p-3 ml-auto shadow-lg rounded-full"><img src=" {{ asset('assets/addcart.svg') }} " alt=""></button>
                 </div>
             </div>
-            <div class="w-1/4 mx-6">
-                <a href="">
+            <div class="w-full sm:w-full md:w-1/2 lg:w-1/2 xl:1/4 mx-6">
+                <a href="/shop/product">
                     <img class="rounded-lg w-full" src=" {{ asset('assets/shopmockup.png') }} " alt="" style="max-width: 100%; max-height: 350px;">
                 </a>
                 <div class="flex items-center">
                     <div class="my-4">
-                        <a href="" class="italic text-black font-bold text-lg">LA’ Donot Tee</a>
+                        <a href="/shop/product" class="italic text-black font-bold text-lg">LA’ Donot Tee</a>
                         <p class="italic text-gray-600 font-bold text-lg">$12.99</p>
                     </div>
                     <button class="bg-white p-3 ml-auto shadow-lg rounded-full"><img src=" {{ asset('assets/addcart.svg') }} " alt=""></button>
