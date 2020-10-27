@@ -85,4 +85,8 @@ class PagesController extends Controller
     public function cart() {
         return view('shop.cart');
     }
+
+    public function bloghome() {
+        return view('blog.bloghome');
+    }
 }

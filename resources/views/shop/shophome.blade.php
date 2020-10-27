@@ -19,7 +19,7 @@
             <a href="" class="py-2 px-5 tab-items bg-gray-200 text-gray-800 font-bold rounded-full mx-3 italic text-sm focus:bg-green-500 focus:text-white">FOOD & DRINK</a>
             <a href="" class="py-2 px-5 tab-items bg-gray-200 text-gray-800 font-bold rounded-full mx-3 italic text-sm focus:bg-green-500 focus:text-white">OTHER GREEN ITEMS</a>
         </div>
-        <div class="block sm:block md:flex lg:flex xl:flex  flex-wrap my-8">
+        <div class="block sm:block md:flex lg:flex xl:flex flex-wrap my-8">
             <div class="w-full sm:w-full md:w-1/2 lg:w-1/3 xl:1/4 mx-6 my-4 middle" style="max-width: 260px">
                 <a href="/shop/product">
                     <img class="rounded-lg w-full" src=" {{ asset('assets/shopmockup.png') }} " alt="" style="max-width: 100%; max-height: 350px;">

@@ -25,6 +25,7 @@
                         <a href="#" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-500 my-3 text-normal text-gray-900">Settings</a>
                         <a href="#" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-500 my-3 text-normal text-gray-900">Help</a>
                         <a href="/shop" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-800 my-3 text-normal text-green-500">Shop</a>
+                        <a href="/blog" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-800 my-3 text-normal text-green-500">Blog</a>
                     </div>
                 </div>
             </div>
@@ -43,6 +44,7 @@
                         <a href="#" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-500 my-3 text-normal text-gray-900">Settings</a>
                         <a href="#" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-500 my-3 text-normal text-gray-900">Help</a>
                         <a href="/shop" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-800 my-3 text-normal text-green-500">Shop</a>
+                        <a href="/blog" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-800 my-3 text-normal text-green-500">Blog</a>
                     </div>
                 </div>
             </div>

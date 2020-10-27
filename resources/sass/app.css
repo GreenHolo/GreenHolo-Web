@@ -223,7 +223,7 @@ button {
     margin: 0 0.5rem;
   }
   .tabs {
-    max-width: 270px;
+    max-width: 300px;
     overflow-x: scroll;
     margin: 20px auto;
   }
@@ -306,20 +306,6 @@ button {
   }
   .middle {
     margin: 0 auto;
-  }
-  .shopsaved {
-    margin: 0 0.5rem;
-  }
-  .cart {
-    margin: 0 0.5rem;
-  }
-  .tabs {
-    max-width: 270px;
-    overflow-x: scroll;
-    margin: 20px auto;
-  }
-  .ctrl {
-    margin: 40px 0;
   }
 }
 /*# sourceMappingURL=app.css.map */

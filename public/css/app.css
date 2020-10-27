@@ -23384,7 +23384,7 @@ a {
   font-family: "Poppins", sans-serif;
 }
 
-p, a, ::placeholder, option {
+p, a, ::placeholder, option, button {
   font-family: "Poppins", sans-serif;
 }
 
@@ -23404,10 +23404,6 @@ p, a, ::placeholder, option {
 
 button {
   outline: none;
-}
-
-.middle {
-  margin: 0 auto;
 }
 
 @media (min-width: 200px) and (max-width: 320px) {
@@ -23521,6 +23517,10 @@ button {
   .ctrl {
     margin: 40px 0;
   }
+
+  .blog-card {
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 321px) and (max-width: 500px) {
@@ -23626,13 +23626,16 @@ button {
   }
 
   .tabs {
-    max-width: 270px;
     overflow-x: scroll;
     margin: 20px auto;
   }
 
   .ctrl {
     margin: 40px 0;
+  }
+
+  .blog-card {
+    margin: 0 auto;
   }
 }
 
@@ -23730,22 +23733,9 @@ button {
     margin: 0 auto;
   }
 
-  .shopsaved {
-    margin: 0 0.5rem;
-  }
-
-  .cart {
-    margin: 0 0.5rem;
-  }
-
-  .tabs {
-    max-width: 270px;
-    overflow-x: scroll;
-    margin: 20px auto;
-  }
-
-  .ctrl {
-    margin: 40px 0;
+  .blog-card {
+    max-width: 500px;
+    margin: 0 auto;
   }
 }
 
