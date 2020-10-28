@@ -23,7 +23,6 @@
                     <div x-show.transition="open" x-on:click.away="open = false" class="absolute right-0 w-48 mt-5 py-4 bg-white border border-green-100 rounded-lg shadow-xl">
                         <a href="/profile" class="transition-colors flex items-center font-semibold duration-200 focus:text-green-500 block px-4 py-2 mb-3 text-normal text-gray-900 rounded"><img class="w-8 h-8 mr-4" src=" {{ asset('assets/profile.png') }} " alt=""> View profile</a>
                         <a href="#" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-500 my-3 text-normal text-gray-900">Settings</a>
-                        <a href="#" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-500 my-3 text-normal text-gray-900">Help</a>
                         <a href="/shop" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-800 my-3 text-normal text-green-500">Shop</a>
                         <a href="/blog" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-800 my-3 text-normal text-green-500">Blog</a>
                     </div>
@@ -42,7 +41,6 @@
                     <div x-show.transition="open" x-on:click.away="open = false" class="absolute z-1 right-0 w-48 mt-5 py-4 bg-white border border-green-100 rounded-lg shadow-xl">
                         <a href="/profile" class="transition-colors flex items-center font-semibold duration-200 focus:text-green-500 block px-4 py-2 mb-3 text-normal text-gray-900 rounded"><img class="w-8 h-8 mr-4" src=" {{ asset('assets/profile.png') }} " alt=""> View profile</a>
                         <a href="#" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-500 my-3 text-normal text-gray-900">Settings</a>
-                        <a href="#" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-500 my-3 text-normal text-gray-900">Help</a>
                         <a href="/shop" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-800 my-3 text-normal text-green-500">Shop</a>
                         <a href="/blog" class="transition-colors duration-200 block px-4 py-1 font-semibold focus:text-green-800 my-3 text-normal text-green-500">Blog</a>
                     </div>

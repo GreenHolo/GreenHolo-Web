@@ -89,4 +89,12 @@ class PagesController extends Controller
     public function bloghome() {
         return view('blog.bloghome');
     }
+
+    public function blogwrite() {
+        return view('blog.blogwrite');
+    }
+    
+    public function blogprofile() {
+        return view('blog.blogprofile');
+    }
 }

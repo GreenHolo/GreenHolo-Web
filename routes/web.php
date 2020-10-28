@@ -63,5 +63,11 @@ Route::get('/cart', 'PagesController@cart');
 
 Route::get('/blog', 'PagesController@bloghome');
 
+Route::get('/blog/write', 'PagesController@blogwrite');
+
+Route::get('/blog/profile', 'PagesController@blogprofile');
+
+
+
 
 
