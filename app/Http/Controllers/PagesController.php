@@ -70,6 +70,10 @@ class PagesController extends Controller
         return view('pages.appliedjobs');
     }
 
+    public function settings() {
+        return view('pages.settings');
+    }
+
     public function shophome() {
         return view('shop.shophome');
     }
@@ -96,5 +100,13 @@ class PagesController extends Controller
     
     public function blogprofile() {
         return view('blog.blogprofile');
+    }
+
+    public function seeds() {
+        return view('blog.seeds');
+    }
+
+    public function seed() {
+        return view('blog.seed');
     }
 }

@@ -53,6 +53,8 @@ Route::get('/jobs/saved', 'PagesController@savedjobs');
 
 Route::get('/jobs/applied', 'PagesController@appliedjobs');
 
+Route::get('/settings', 'PagesController@settings');
+
 Route::get('/shop', 'PagesController@shophome');
 
 Route::get('/shop/product', 'PagesController@product');
@@ -66,6 +68,11 @@ Route::get('/blog', 'PagesController@bloghome');
 Route::get('/blog/write', 'PagesController@blogwrite');
 
 Route::get('/blog/profile', 'PagesController@blogprofile');
+
+Route::get('/seeds', 'PagesController@seeds');
+
+Route::get('/seed', 'PagesController@seed');
+
 
 
 

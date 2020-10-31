@@ -31,14 +31,13 @@
     <footer class="mt-10 padrr py-10 px-10 bg-gray-100">
         <img src=" {{ asset('assets/Biota.svg') }} " alt="">
         <div class="flex -mx-3 mt-6 mb-4">
-            <a class="mx-3 font-semibold text-green-700" href="">Get Started</a>
-            <a class="mx-3 font-semibold text-green-700" href="">Subscribe</a>
-            <a class="mx-3 font-semibold text-green-700" href="">GreenHolo</a>
+            <a class="mx-3 font-semibold text-green-700" href="/blog/write">Get Started</a>
+            <a class="mx-3 font-semibold text-green-700" href="/seeds">Subscribe</a>
+            <a class="mx-3 font-semibold text-green-700" href="/home">GreenHolo</a>
         </div>
         <div class="flex -mx-3 my-4">
             <a class="mx-3 font-semibold text-green-700" href="">Legal</a>
-            <a class="mx-3 font-semibold text-green-700" href="">Contact us</a>
-            <a class="mx-3 font-semibold text-green-700" href="">Careers</a>
+            <a class="mx-3 font-semibold text-green-700" href="">Terms & Conditions</a>
         </div>
         <p class="my-6 text-xs text-gray-500">Copyright 2020 Biota</p>
 

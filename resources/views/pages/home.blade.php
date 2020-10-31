@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="w-full sm:w-full md:w-3/5 lg:w-3/5 xl:w-3/5 mx-1 p-3 rounded-lg" style="height: auto;">
-                <div class="flex blo-ck items-center p-1 -m-3 bg-white rounded-lg">
+                <div class="items-center p-1 -m-3 bg-white rounded-lg">
                     <a href="" class="m-3 post-button flex border-2 py-2 px-4 rounded-lg text-center border-green-200">
                         <img src="{{ asset('assets/write.svg') }}" alt=""> <span class="py-3 font-bold ml-4 span">Write a Seed</span>
                     </a>

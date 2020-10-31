@@ -2,17 +2,19 @@
 
 @section('content')
     <div class="px-10 padrr py-5">
-        <div class="p-4 my-10">
-            <p class="text-3xl font-bold mx-auto text-center max-w-lg text-green-500">Share and help out with Ongoing or Upcoming Projects</p>
-            <p class="text-xl mx-auto text-center max-w-xl my-4 text-gray-800">Either you want to read or give needed assistance with a project or share your own project.</p>
-            <div class="text-center py-4">
-                <a class="bg-green-500 py-2 px-4 rounded-full text-white text-center mx-auto font-semibold" href="/blog/write">Get Started</a>
-            </div>
-        </div>
-        <div class="py-10">
-            <div class="my-6 mx-6 flex items-center">
-                <p class="text-2xl font-bold text-green-500">Articles</p>
-                <a class="font-semibold ml-auto text-sm text-grey-600" href="/blogs">More ></a>
+        <div class="my-6">
+            <div class="mx-6 flex items-center">
+                <p class="text-cen-ter text-green-500 text-2xl font-bold my-4">Seeds</p>
+                <div class="flex relative items-center ml-auto">
+                    <select class="block appearance-none font-semibold w-auto bg-white rounded-lg border-2 border-green-200 rounded-g hover:border-green-5 00 px-4 py-2 pr-8 leading-tight focus:outline-none focus:shadow-outline" style="font-family: 'Poppins', sans-serif;">
+                        <option>Top</option>
+                        <option>Latest</option>
+                        <option>New</option>
+                    </select>
+                    <div class="absolute right-0 flex items-center px-2 text-gray-700 pointer-events-none">
+                        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                    </div>
+                </div>
             </div>
             <div class="flex blo-ck">
                 <div class="w-full sm:w-full md:w-full lg:w-1/3 xl:w-1/3 mx-6 my-4 blog-card">

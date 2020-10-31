@@ -4,10 +4,10 @@
     <div class="px-10 padrr py-5">
         <p class="text-left max-w-sm font-bold text-2xl my-10 text-green-500 ">A seed just popped in your mind? Sustain it by sharing it</p>
         <div class="p-4 my-16 border border-green-200 rounded-lg">
-            <div class="flex items-center -mx-2">
-                <input class="w-full rounded-lg border-2 border-green-200 mx-2 px-4 py-4" type="text" placeholder="Title">
-                <div class="flex relative mx-2 items-center ml-auto">
-                    <select class="block appearance-none font-semibold w-auto bg-white rounded-lg border-2 border-green-200 rounded-g hover:border-green-5 00 px-4 py-4 pr-8 leading-tight focus:outline-none focus:shadow-outline" style="font-family: 'Poppins', sans-serif;">
+            <div class="flex mobile-block items-center -mx-2">
+                <input class="w-full krb-2 rounded-lg border-2 border-green-200 mx-2 px-4 py-4" type="text" placeholder="Title">
+                <div class="flex relative krb mx-2 items-center ml-auto">
+                    <select class="block full-width appearance-none font-semibold w-auto bg-white rounded-lg border-2 border-green-200 rounded-g hover:border-green-5 00 px-4 py-4 pr-8 leading-tight focus:outline-none focus:shadow-outline" style="font-family: 'Poppins', sans-serif;">
                         <option>Agriculture</option>
                         <option>Green Tech</option>
                     </select>
